@@ -22,6 +22,18 @@ $('a[href^="#"]').on('click', function(event) {
 
 });
 
+$('.nav-item').click(function(){
+    $('.navbar-toggler').click();
+  });
+
+  $('.facebook').click(function(){
+      location.href='https://www.facebook.com/pages/category/Barber-Shop/Man-Parlor-Barbershop-329319544535444/';
+  });
+
+  $('.instagram').click(function(){
+      location.href='https://www.instagram.com/manparlorbarbershop/?hl=en';
+  });
+
 // Sticky Header
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();

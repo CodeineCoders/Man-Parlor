@@ -395,7 +395,7 @@ i.box-circle-solid{
 	-moz-transition: .5s;
 }
 .info-section .service-block i img{
-	width:50px;
+	width:70px;
 }
 .content-half{
     color:#fff;
@@ -579,7 +579,7 @@ transition:1s ease-in;
 }
 .testimonial-section .single-testimonial .carousel-item {
     margin: 0 15%;
-    width: 70%;
+	width: 70%;
 }
 .testimonial-section .single-testimonial .carousel-item-next, .testimonial-section .single-testimonial .carousel-item-prev{
 	top:3rem;
@@ -590,7 +590,8 @@ transition:1s ease-in;
 .testimonial-section .single-testimonial .navigator-box{
 	display: inline-block;
 	position: relative;
-    top: 0px;
+	top: 0px;
+
 }
 .testimonial-section .single-testimonial .carousel-control-next, .testimonial-section .single-testimonial .carousel-control-prev{
 	 border: 1px solid #b47f41;
@@ -603,11 +604,11 @@ transition:1s ease-in;
     opacity: 1;
     padding: 0 23px;
     position: relative;
-    width: 43%;
+	width: 43%;
+	
 }
 .testimonial-section .single-testimonial .carousel-control-next:hover, .testimonial-section .single-testimonial .carousel-control-prev:hover{
-	background-color: #b47f41;
-	color: #fff;
+	background-image: url(img/rustic.jpg);
 }
 
 
@@ -726,7 +727,6 @@ ul.social-box li {
 	color: #fff;
 }
 
-
 /* ========== Price Table Styles ========== */
 .price-section{
 	float: left;
@@ -761,6 +761,21 @@ ul.social-box li {
 	width: 100%;
 	position: relative;
 	z-index: 1;
+}
+
+.instagram{
+	float: right;
+}
+
+.facebook{
+	float: right;
+	padding-right: 20px;
+}
+
+#contact{
+	color: burlywood;
+	position: center;
+	font-family: serif;
 }
 .contact-section .form-control{
 	border-radius: 0;
