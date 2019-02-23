@@ -768,5 +768,81 @@ ul.social-box li {
 
 
 /* ========== Responsive Stylings ========== */
+@media (max-width: 990px){
+	.intro-bg{
+		background-image: url(../img/chair.jpg);
+	}
 
+	.container{
+		width: 100%;
+	}
+	.intro .intro-box{
+		padding-left: 0;
+		margin-bottom: 0;
+	}
+	.intro .intro-box span{
+		margin-right: 10px;
+	}
+	.intro .intro-box .list-item{
+		width: 85%;
+	}
+	.content-half ul li i{
+		font-size: 20px;
+	}
+	.content-half ul li .list-content{
+		width:77%;
+	}
+	.content-half ul li strong{
+		line-height: 0;
+	}
+	.testimonial-section .single-testimonial .carousel-item{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.widget h2 {
+    	font-size: 1.5rem;
+	}
+	.widget .counter{
+		line-height: 0;
+		font-size: 1.7rem;
+	}
+	.widget .fa-3x{
+		font-size: 2rem;
+	}
+	.widget .stat-content h4{
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 767px){
+	.container{
+		width:100%;
+	}
+	.intro .intro-form-small input[type="text"], .intro .intro-form-small input[type="password"]{
+		width: 36%;
+	}
+	.intro .carousel-caption{
+		top:10%;
+	}
+	.widget.widget-counter .container{
+		width: 100%;
+	}
+	.contact-section #map {
+    	height: 400px
+	}
+	#navbarSupportedContent{
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0!important;
+	padding: 30px 0
+	}
+	#navbarSupportedContent li{
+		text-align: center;
+	}
+	#about .copy-container {
+	    background-color:rgba(255,255,255,0.9);
+	    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	    padding: 30px;
+	}
+
+}
 
