@@ -121,7 +121,6 @@ i.box-circle-solid{
 	bottom: -15px;
 	border-radius: 10px;
 }
-/*
 .bg-overlay:before{
 	content:"";
 	background:rgba(0,0,0,0.7);
@@ -135,13 +134,12 @@ i.box-circle-solid{
 .bg-overlay-primary:before{
 	content:"";
 	background:rgba(49,31,10,0.5);
-	position: absolute;
 	height: 100%;
 	width:100%;
 	left:0;
 	top:0;
 	z-index: -1;
-}*/
+}
 .bg-right{
 	background:url("../img/sec-bg-01.jpg");
 	background-repeat: no-repeat;
