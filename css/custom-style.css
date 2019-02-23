@@ -771,6 +771,8 @@ ul.social-box li {
 @media (max-width: 991px){
 	.intro-bg{
 		background-image: url(../img/chair.jpg);
+		width: 400px;
+		height: 400px;
 	}
 
 	.container{
@@ -812,9 +814,6 @@ ul.social-box li {
 	}
 	.widget .stat-content h4{
 		font-size: 1.2rem;
-	}
-	.search-box{
-		display: none;
 	}
 }
 
