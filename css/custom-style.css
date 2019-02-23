@@ -766,12 +766,16 @@ ul.social-box li {
 	text-decoration: underline;
 }
 
+.intro-bg {
+	float: left;
+	width:100%;
+	padding:5rem 0;
+	position: relative;
+	z-index: 1;
+}
 
 /* ========== Responsive Stylings ========== */
 @media (max-width: 990px){
-	.intro-bg{
-		background-image: url(../img/chair.jpg);
-	}
 
 	.container{
 		width: 100%;
