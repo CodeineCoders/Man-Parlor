@@ -774,7 +774,8 @@ ul.social-box li {
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size:cover;
-		position: relative;
+		width: 100px;
+		height: 100px;
 	}
 
 	.container{
