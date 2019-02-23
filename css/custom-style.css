@@ -768,11 +768,9 @@ ul.social-box li {
 
 
 /* ========== Responsive Stylings ========== */
-@media (max-width: 991px){
+@media only screen and (max-width: 991px){
 	.intro-bg{
 		background-image: url(../img/chair.jpg);
-		width: 400px;
-		height: 400px;
 	}
 
 	.container{
