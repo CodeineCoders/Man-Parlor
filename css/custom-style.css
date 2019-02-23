@@ -121,6 +121,7 @@ i.box-circle-solid{
 	bottom: -15px;
 	border-radius: 10px;
 }
+/*
 .bg-overlay:before{
 	content:"";
 	background:rgba(0,0,0,0.7);
@@ -140,7 +141,7 @@ i.box-circle-solid{
 	left:0;
 	top:0;
 	z-index: -1;
-}
+}*/
 .bg-right{
 	background:url("../img/sec-bg-01.jpg");
 	background-repeat: no-repeat;
@@ -164,9 +165,10 @@ i.box-circle-solid{
 	background-position: top left;	
 	background-size: cover;
 }
+/*
 .parallax{
 	background-attachment: fixed!important;
-}
+}*/
 .font-abril{
 	font-family: 'Abril Fatface', cursive;
 }
@@ -766,17 +768,11 @@ ul.social-box li {
 	text-decoration: underline;
 }
 
-.intro-bg {
-	float: left;
-	width:100%;
-	padding:5rem 0;
-	position: relative;
-	z-index: 1;
-}
-
 /* ========== Responsive Stylings ========== */
-@media (max-width: 990px){
-
+@media (max-width: 700px){
+	.intro-bg {
+		background-image: url("../img/chair.jpg");
+	}
 	.container{
 		width: 100%;
 	}
