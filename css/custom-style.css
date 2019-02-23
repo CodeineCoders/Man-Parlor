@@ -772,9 +772,7 @@ ul.social-box li {
 	.intro-bg{
 		background-image: url(../img/chair.jpg);
 		background-repeat:no-repeat;
-		background-position: center center;
-		background-size:cover;
-		position: fixed;
+		background-size: auto;
 	}
 
 	.container{
