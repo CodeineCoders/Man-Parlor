@@ -771,7 +771,6 @@ ul.social-box li {
 @media (max-width: 990px){
 	.intro-bg{
 		background-image: url(../img/chair.jpg);
-		background-size: 640px 426px;
 	}
 
 	.container{
