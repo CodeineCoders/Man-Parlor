@@ -123,7 +123,7 @@ i.box-circle-solid{
 }
 .bg-overlay:before{
 	content:"";
-	background:rgba(0,0,0,0.7);
+	background:rgba(10, 10, 10, 0.253);
 	position: absolute;
 	height: 100%;
 	width:100%;
@@ -133,34 +133,34 @@ i.box-circle-solid{
 }
 .bg-overlay-primary:before{
 	content:"";
-	background:rgba(49,31,10,0.5);
+	background:rgba(46, 29, 9, 0.315);
 	height: 100%;
 	width:100%;
 	left:0;
 	top:0;
 	z-index: -1;
 }
-.bg-right{
+/*.bg-right{
 	background:url("../img/sec-bg-01.jpg");
 	background-repeat: no-repeat;
 	background-position: top right;
-}
+}*/
 .sec-bg-02{
-	background:url("../img/sec-bg-02.jpg");
+	background:url("../img/who.png");
 	background-repeat: no-repeat;
 	background-position: top left;	
 	background-size: cover;
 }
 .sec-bg-03{
-	background:url("../img/sec-bg-03.jpg");
+	background:url("../img/wood.jpg");
 	background-repeat: no-repeat;
 	background-position: top left;	
 	background-size: cover;
 }
 .sec-bg-04{
-	background:url("../img/sec-bg-04.jpg");
+	background:url("../img/rustic.jpg");
 	background-repeat: no-repeat;
-	background-position: top left;	
+	background-position: center center;	
 	background-size: cover;
 }
 /*
@@ -553,6 +553,7 @@ transition:1s ease-in;
 	top: 0px;
 
 }
+
 .testimonial-section .single-testimonial .carousel-control-next, .testimonial-section .single-testimonial .carousel-control-prev{
 	 border: 1px solid #b47f41;
     border-radius: 50%;
@@ -566,9 +567,6 @@ transition:1s ease-in;
     position: relative;
 	width: 43%;
 	
-}
-.testimonial-section .single-testimonial .carousel-control-next:hover, .testimonial-section .single-testimonial .carousel-control-prev:hover{
-	background-image: url(img/rustic.jpg);
 }
 
 
@@ -699,9 +697,9 @@ ul.social-box li {
     font-size: 2.5rem;
     font-weight: 700;
 }
-.price-section .price-block{
+/*.price-section .price-block{
 
-}
+}*/
 .price-section .currency{
 	font-size: 25px;
     vertical-align: super;
@@ -733,6 +731,7 @@ ul.social-box li {
 }
 
 #contact{
+	padding-top: 1px;
 	color: burlywood;
 	position: center;
 	font-family: serif;
@@ -744,13 +743,16 @@ ul.social-box li {
 	height: 100vh;
 	width:100%;
 	position: absolute;
-	opacity: 0.3;
+	opacity: 0.5;
 }
 .contact-section .form-control:focus{
 	border-color: #B47F41;
 }
 .contact-section .form-sec{
 	box-shadow: 0 0 30px rgba(0,0,0,1);
+	top: 350px;
+	padding: 50px;
+
 }
 /* ========== Copy Footer Styles ========== */
 .copy-footer{
@@ -821,14 +823,15 @@ ul.social-box li {
 		width: 36%;
 	}
 	.intro .carousel-caption{
-		top:10%;
+		top: 10%;
 	}
 	.widget.widget-counter .container{
 		width: 100%;
 	}
-	.contact-section #map {
-    	height: 400px
+	/*.contact-section #map {
+
 	}
+	*/
 	#navbarSupportedContent{
 	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0!important;
 	padding: 30px 0
